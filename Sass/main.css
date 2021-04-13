@@ -159,11 +159,6 @@ a:hover, button:hover {
   right: 0;
 }
 
-.texture-paper::before {
-  background: url("../img/texture-paper.jpg");
-  background-size: 280px 280px;
-}
-
 .b-parallax {
   background-attachment: fixed;
 }
@@ -461,13 +456,6 @@ nav .caret {
 .mg-md {
   margin-top: 10px;
   margin-bottom: 20px;
-}
-
-span .mg-md .text-center {
-  font-size: 1.5rem;
-  text-transform: uppercase;
-  font-weight: 700;
-  color: #333333 !important;
 }
 
 .mg-lg {
@@ -838,11 +826,11 @@ h4 {
 }
 
 .bg-banniere {
-  background-image: url("../img/la-chouette-agence-banniere.jpg");
+  background-image: url("../img/la-chouette-agence-banniere.jpf");
 }
 
 .bg-presentation {
-  background-image: url("../img/image-de-presentation.jpg");
+  background-image: url("../img/image-de-presentation.jpf");
 }
 
 @media only screen and (min-width: 768px) {
