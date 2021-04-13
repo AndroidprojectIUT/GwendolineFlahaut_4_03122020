@@ -463,6 +463,13 @@ nav .caret {
   margin-bottom: 20px;
 }
 
+title .mg-md.text-center {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #333333 !important;
+}
+
 .mg-lg {
   margin-top: 10px;
   margin-bottom: 40px;
