@@ -438,12 +438,14 @@ nav .caret {
 .mg-md {
     margin-top: 10px;
     margin-bottom: 20px;
+    
+}
+span.mg-md.text-center{
     text-transform: uppercase;
     font-size: 1.5rem;
     color: #333333;
     font-weight: 700;
 }
-
 .mg-lg {
     margin-top: 10px;
     margin-bottom: 40px;
