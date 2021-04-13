@@ -82,7 +82,7 @@ body {
     content: url("../img/svg/instagram-brands.svg");
 }
 .title, .citation{
-    font-size: size(22);
+    font-size: size(20);
 }
 .title{
     margin-bottom: 1em;
@@ -98,6 +98,7 @@ span.title{
 .smaller{
     font-style: normal;
     font-size: size(14);
+    display:block;
 }
 a, button {
     transition: all .3s ease-in-out;
@@ -437,7 +438,12 @@ nav .caret {
 .mg-md {
     margin-top: 10px;
     margin-bottom: 20px;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    color: #333333;
+    font-weight: 700;
 }
+
 .mg-lg {
     margin-top: 10px;
     margin-bottom: 40px;
