@@ -581,7 +581,7 @@ a[data-lightbox] {
     bottom: 5px;
 }
 .close-lightbox {
-    color: #FFF;
+    color: #949494;
     font-size: size(30);
     position: absolute;
     top: 20px;
@@ -598,7 +598,7 @@ a[data-lightbox] {
 .next-lightbox:hover,
 .prev-lightbox:hover {
     opacity: 1.0;
-    color: #FFF;
+    color: #949494;
 }
 
 .next-lightbox,
@@ -682,7 +682,7 @@ p {
 }
 .cta-hero {
     margin-top: 22px;
-    color: #FFFFFF!important;
+    color: #949494!important;
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
     font-size: size(16);
@@ -748,25 +748,25 @@ h4 {
     }
     
     &-dark-slate-blue {
-        background-color: #364577;
+        background-color: #34495E;
     }
     
     &-atomic-tangerine {
-        background-color: #F3976C;
+        background-color: #d43900;
     }
 }
 
 .tc-white {
-    color: lightness-shift(#F3976C)!important;
+    color: lightness-shift(#d43900)!important;
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #d43900;
     color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
+    background: #ab6543!important;
     color: #FFFFFF!important;
 }
 
@@ -778,19 +778,19 @@ h4 {
         color: #cccccc!important;
     }
     &-atomic-tangerine {
-        color: #F3976C!important;
+        color: #d43900!important;
     }
     &-atomic-tangerine:hover {
-        color: #c27956!important;
+        color: #ab6543!important;
     }
 }
 .icon-dark-slate-blue {
-    color: #364577!important;
-    border-color: #364577!important;
+    color: #34495E!important;
+    border-color: #34495E!important;
 }
 .bg{
     &-banniere {
-        background-image: url("../img/jpg/la-chouette-agence-banniere.jpg");
+        background-image: url("../img/la-chouette-agence-banniere.jpg");
     }
     
     &-presentation {
