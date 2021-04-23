@@ -1,14 +1,12 @@
 
-// The default font size for html is 16px
+
 $base-size: 10;
-//Function to convert px value into rem
-//You can replace rem with any other value you want (rem is most preferred value for web)
 @function size($target, $context: $base-size) {
   @return ($target / $context) * 1rem;
 }
 
   $breakpoints: (
-    "phone":        400px,
+    "phone":        320px,
     "phone-wide":   480px,
     "phablet":      560px,
     "tablet-small": 640px,
@@ -36,6 +34,7 @@ $base-size: 10;
     }
   }
 //--------------------------------------------------------------ALL
+
 body {
     margin: 0;
     padding: 0;
@@ -114,7 +113,7 @@ a, button {
     bottom: 0;
     width: 100%;
     z-index: 100000;
-    background:lightness-shift(#FFFFFF) url("../img/pageload-spinner.gif") no-repeat center center;
+    background:lightness-shift(#FFFFFF) no-repeat center center;
 }
 .bloc {
     width: 100%;
@@ -791,11 +790,11 @@ h4 {
 }
 .bg{
     &-banniere {
-        background-image: url("../img/la-chouette-agence-banniere.jpg");
+        background-image: url("../img/jpg/la-chouette-agence-banniere.jpg");
     }
     
     &-presentation {
-        background-image: url("../img/image-de-presentation.jpg");
+        background-image: url("../img/jpg/image-de-presentation.jpg");
     }
 }
  
@@ -865,6 +864,36 @@ h4 {
         background-attachment: scroll;
     }
     
+}
+@include mq('phone'){
+    .mg-md .text-center, .col-sm-6{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .row .row-no-gutters .social{
+        display: flex;
+        flex-direction: row;
+        flex-flow: wrap;
+        justify-content: space-evenly;
+    }
+    .a{
+        text-decoration: underline solid;
+    }
+    .col-sm-4, .col-sm-6{
+        display: inline-flex;
+        flex-direction: column;
+    }
+    .text-center .intro-portfolio{
+        font-size: 2.5rem;
+        font-style: italic;
+    }
+    .col-sm-12 .fonce{
+        background-color: #ffce90 ;
+    }
+    .col-sm-12 .claire{
+        background-color: #1e0000;
+    }
 }
 @media (max-width: 991px) {
     .container {

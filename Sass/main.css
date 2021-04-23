@@ -94,7 +94,7 @@ a:hover, button:hover {
   bottom: 0;
   width: 100%;
   z-index: 100000;
-  background: #e6e6e6 url("../img/pageload-spinner.gif") no-repeat center center;
+  background: #e6e6e6 no-repeat center center;
 }
 
 .bloc {
@@ -834,11 +834,11 @@ h4 {
 }
 
 .bg-banniere {
-  background-image: url("../img/la-chouette-agence-banniere.jpg");
+  background-image: url("../img/jpg/la-chouette-agence-banniere.jpg");
 }
 
 .bg-presentation {
-  background-image: url("../img/image-de-presentation.jpg");
+  background-image: url("../img/jpg/image-de-presentation.jpg");
 }
 
 @media only screen and (min-width: 768px) {
@@ -905,6 +905,37 @@ h4 {
   }
   .b-parallax {
     background-attachment: scroll;
+  }
+}
+
+@media only screen and (min-width: 320px) {
+  .mg-md .text-center, .col-sm-6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .row .row-no-gutters .social {
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    justify-content: space-evenly;
+  }
+  .a {
+    text-decoration: underline solid;
+  }
+  .col-sm-4, .col-sm-6 {
+    display: inline-flex;
+    flex-direction: column;
+  }
+  .text-center .intro-portfolio {
+    font-size: 2.5rem;
+    font-style: italic;
+  }
+  .col-sm-12 .fonce {
+    background-color: #ffce90;
+  }
+  .col-sm-12 .claire {
+    background-color: #1e0000;
   }
 }
 
